@@ -27,4 +27,4 @@ npm run dev
 ##
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](https://github.com/Re4ch-Jay/hashiru/blob/main/LICENSE).
