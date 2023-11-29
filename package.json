@@ -9,6 +9,14 @@
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re4ch-Jay/hashiru.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Re4ch-Jay/hashiru/issues"
+  },
+  "homepage": "https://github.com/Re4ch-Jay/hashiru#hashiru",
   "keywords": [
     "tool",
     "express",
