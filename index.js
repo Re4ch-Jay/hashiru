@@ -1,6 +1,21 @@
 const { execSync } = require('child_process');
 const { input, confirm, select, Separator } = require('@inquirer/prompts');
+const { program } = require('commander');
 const generateExpressProject = require('./template/index');
+
+program
+  .version('1.0.0') // Set the version of your CLI tool
+  .description('A CLI Starter Kit For Express.js');
+
+program
+  .command('create-express-app')
+  .description('Starter Kit For Express.js')
+  .action(() => {
+    createExpressProject();
+  });
+
+// Parse command-line arguments
+program.parse(process.argv);
 
 async function createExpressProject() {
   const projectName = await input({ message: "What's your project name?" });
@@ -59,4 +74,3 @@ async function createExpressProject() {
   console.log(`Express application structure has been created.\ncd ${projectName}\nnpm start or npm run dev\n`);
 }
 
-createExpressProject();
