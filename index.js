@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const { execSync } = require('child_process');
 const { input, confirm, select, Separator } = require('@inquirer/prompts');
 const { program } = require('commander');
