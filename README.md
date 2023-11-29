@@ -11,20 +11,40 @@ Hashiru is a CLI Starter Kit for Express.js that helps you quickly set up a new 
 
 ## Installation
 
+You need to install hashiru globally on your Machine.
+
 ```bash
 npm install -g hashiru
-
 ```
+
+Verify your installation. On Linux, MacOS terminal or GitBash for Windows
 
 ```bash
-
-hashiru create express-app
-cd my-express-app
-npm run dev
-
+hashiru -V
 ```
 
-##
+## Scaffolding Your First Express Project
 
-License
+```bash
+hashiru create-express-app
+```
+
+## Help
+
+```bash
+hashiru --help
+```
+
+A CLI Starter Kit For Express.js
+
+Options:
+  -V, --version       output the version number
+  -h, --help          display help for command 
+
+Commands:
+  create-express-app  Starter Kit For Express.js
+  help [command]      display help for command
+
+## License
+
 This project is licensed under the [MIT License](https://github.com/Re4ch-Jay/hashiru/blob/main/LICENSE).
