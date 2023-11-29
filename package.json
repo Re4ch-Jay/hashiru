@@ -1,0 +1,27 @@
+{
+  "name": "hashiru",
+  "version": "1.0.0",
+  "description": "A CLI Starter Kit For Express.js",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tool",
+    "express",
+    "hashiru",
+    "cli"
+  ],
+  "author": "Phat Panhareach",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  },
+  "dependencies": {
+    "@inquirer/core": "^5.1.1",
+    "@inquirer/prompts": "^3.3.0"
+  }
+}
